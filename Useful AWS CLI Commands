@@ -1,0 +1,2 @@
+#Command to remove one or more ingress rules (ssh (port 22), in the below example)from the security group KunalSG01
+aws ec2 revoke-security-group-ingress --group-name KunalSG01 --protocol-tcp --port 22 --cidr 190.0.0.0/24
